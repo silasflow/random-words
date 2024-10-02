@@ -35,6 +35,30 @@ const [ result, setResult ] = createSignal("")
 		</button>
 		<p>{}</p>
 		
+		<div class="relative w-full h-[400px] bg-white flex flex-row justify-center items-center">
+			<!-- <div class="relative p-4 w-fit h-fit text-slate-200 before:content-[''] before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:bg-black before:z-0 before:blur-md"> 				
+				<p class="relative z-10">hello world</p>
+			</div> -->
+			<div class="w-4 h-4 bg-black blur-md"></div>
+			<div class="absolute top-0 bottom-0 left-0 right-0 bg-black mix-blend-color-burn"/>
+			<div class="absolute top-0 bottom-0 left-0 right-0 bg-slate-400 mix-blend-color-dodge"/>
+			
+		
+		</div>
+
+		<!-- <div class="flex flex-col">
+            <div class="border-slate-100 border-x-[10px] border-t-[10px] w-[710px]">
+                <p class="p-10 pb-0 text-[60px] leading-[110%]">
+                    Ullamco et cillum sit consequat cillum velit dolor reprehenderit non exercitatio
+                </p>
+                </div>
+            <div class="-mt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="710" height="50" viewBox="0 0 710 50" fill="none">
+                    <path d="M5 4V45H623.155L705 5V4" stroke="white" stroke-width="10"/>
+                </svg>
+            </div>
+        </div> -->
+
 	</main>
 </Layout>
 
